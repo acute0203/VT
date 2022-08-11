@@ -5,7 +5,7 @@ import pkg from "./package.json";
 import friendlyTypeImports from "rollup-plugin-friendly-type-imports";
 import { resolve } from "path";
 module.exports = defineConfig({
-    base: "/VT/",
+    base: "./",
     build: {
         lib: {
             entry: path.resolve(__dirname, "src/index.ts"),
